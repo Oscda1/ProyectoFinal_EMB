@@ -25,6 +25,8 @@
 #define PIN_RX 23
 #define SAVE_CMD 36
 #define LOAD_CMD 37
+#define DELETE_CMD 38
+#define BORRAR 1
 
 
 static const char *TAG = "SD_CARD_SLAVE";
@@ -36,8 +38,7 @@ QueueHandle_t queueUART = NULL;
 const char mount_point[] = MOUNT_POINT;
 uint8_t data[26] = {0};
 char cad[EXAMPLE_MAX_CHAR_SIZE]={0};
-char salida[100] = ""; 
-FILE* F, *F2;
+char salida[200] = ""; 
 RTC_DATA_ATTR static uint8_t firstrun = 0;
 
 #define CONFIG_EXAMPLE_FORMAT_IF_MOUNT_FAILED
@@ -118,74 +119,72 @@ void gpio_init(){
     gpio_set_pull_mode(PIN_WAKEUP, GPIO_PULLDOWN_ONLY);
 }
 
-void imprimir(){
-    fseek(F2, 0, SEEK_SET);
-        while(fgets(bufferfile, BUFFER_SIZE, F2)!=NULL){
-            ESP_LOGI(TAG,"%s", bufferfile);
-            vTaskDelay(100/portTICK_PERIOD_MS);
-        }
-    
+//Genera una funcion imprimir que imprima el contenido del archivo montado en la SDCARD en el archivo valoores.txt
+void imprimir() {
+    FILE *F = fopen(MOUNT_POINT"/valores.txt", "r");
+    if (F == NULL) {
+        ESP_LOGE(TAG, "Fallo al abrir el archivo para lectura!");
+        return;
+    }
+    ESP_LOGI(TAG, "Contenido del archivo valores.txt:");
+    while (fgets(cad, EXAMPLE_MAX_CHAR_SIZE, F) != NULL) {
+        printf("%s", cad);
+    }
+    fclose(F);
+}
+
+//Genera una funcion que borre el contenido del archivo valores.txt en la SDCARD sin borrar el archivo
+void borrar_contenido() {
+    FILE *F = fopen(MOUNT_POINT"/valores.txt", "w");
+    if (F == NULL) {
+        ESP_LOGE(TAG, "Fallo al abrir el archivo para borrar contenido!");
+        return;
+    }
+    fclose(F);
+    ESP_LOGI(TAG, "Contenido del archivo valores.txt borrado!");
 }
 
 void slave_listening(void *args){
     while(1){
-        uint8_t bandera = 0;
-        // do{
-        //     vTaskDelay(10/portTICK_PERIOD_MS);
-        //     if(gpio_get_level(PIN_WAKEUP) == 1){
-        //         bandera=1;
-        //     }
-        //     if(gpio_get_level(PIN_WAKEUP) == 0 && bandera == 1){
-        //         break;
-        //     }
-        // }while(1);
-        uint8_t len = uart_read_bytes(UART_NUM_1, salida, sizeof(salida), 1000/portTICK_PERIOD_MS);
+        uint8_t len = uart_read_bytes(UART_NUM_1, salida, sizeof(salida), 500/portTICK_PERIOD_MS);
         ESP_LOGI(TAG, "Recibido: %s con %d bytes", salida, len);
         if(salida[0] == SAVE_CMD){
+            FILE *F = fopen(MOUNT_POINT"/valores.txt", "a+");
             ESP_LOGI(TAG, "Numero recibido: %s", &salida[1]);
-            fseek(F, 0, SEEK_END);
             fprintf(F, "%s\n", &salida[1]);
-            fflush(F);
-        }else if(data[0] == LOAD_CMD){
-            fseek(F, 0, SEEK_SET);
-            while(fgets(cad, EXAMPLE_MAX_CHAR_SIZE, F) != NULL){
-                strcat(salida, cad);
-            }
-            uart_write_bytes(UART_NUM_1, salida, strlen(salida));
-            memset(salida, 0, sizeof(salida));
+            fclose(F);
         }else{
             ESP_LOGI(TAG, "Comando no reconocido");
         }
         imprimir();
         vTaskDelay(100/portTICK_PERIOD_MS);
+        esp_deep_sleep_start();
     }
 }
 
-
-
-void app_main() {
+void app_main()
+{
     initSD();
-    F = fopen("/sdcard/valores.txt", "w");
-    if(F == NULL){
-        ESP_LOGE(TAG, "Fallo al abrir el archivo");
+    uart_init();
+    gpio_init();
+    
+    ESP_LOGI(TAG, "SPI SD incializado exitosamente");
+    esp_sleep_enable_ext0_wakeup(PIN_WAKEUP, 1);
+    if (firstrun == 0)
+    {
+        firstrun = 1;
+        ESP_LOGI(TAG, "Primer deep sleep");
+        #ifdef BORRAR
+            borrar_contenido();
+        #endif
+        esp_deep_sleep_start();
     }
-    F2 = fopen("/sdcard/valores.txt", "r");
-    if (F2 == NULL) {
-        ESP_LOGE(TAG, "Fallo al abrir el archivo");
-    }{
-        ESP_LOGI(TAG, "SPI SD incializado exitosamente");
-        uart_init();
-        gpio_init();
-        esp_sleep_enable_ext0_wakeup(PIN_WAKEUP, 1);
-        if(firstrun == 0){
-            firstrun = 1;
-            ESP_LOGI(TAG, "Primer deep sleep");
-            esp_deep_sleep_start();
-        }else{
-            xTaskCreate(slave_listening, "slave_listening", 4096, NULL, 10, NULL);
-        }
-        do{
-            vTaskDelay(1000/portTICK_PERIOD_MS);
-        }while(1);  
+    else
+    {
+        xTaskCreate(slave_listening, "slave_listening", 4096, NULL, 10, NULL);
     }
+    do
+    {
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
+    } while (1);
 }

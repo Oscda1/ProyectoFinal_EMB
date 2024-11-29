@@ -1985,3 +1985,5 @@
 23040	23645	7545844621749968	D:/ESP32-Projects/Proyecto Final/SLAVE-TEMP/build/.bin_timestamp	1a79f982a4d97a59
 23645	23792	0	esp-idf/esptool_py/CMakeFiles/app_check_size	2dfcf8a819388d08
 23645	23792	0	D:/ESP32-Projects/Proyecto Final/SLAVE-TEMP/build/esp-idf/esptool_py/CMakeFiles/app_check_size	2dfcf8a819388d08
+301	11923131	0	CMakeFiles/confserver	6089a62ed3fbcbb6
+301	11923131	0	D:/ESP32-Projects/Proyecto Final/SLAVE-TEMP/build/CMakeFiles/confserver	6089a62ed3fbcbb6

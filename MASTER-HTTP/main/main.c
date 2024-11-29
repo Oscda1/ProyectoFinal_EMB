@@ -13,6 +13,8 @@
 #include "driver/uart.h"
 #include <esp_wifi.h>
 #include "esp_log.h"
+#include "cJSON.h"
+#include "esp_event.h"
 
 #include "connect_wifi.h"
 
@@ -26,8 +28,7 @@
 #define CS_SENS_PIN 23
 #define CS_SD_PIN 22*/
 
-#define SAVE_CMD 0x12
-#define LOAD_CMD 0x34
+#define SAVE_CMD 36
 
 httpd_handle_t server = NULL;
 struct async_resp_arg
@@ -43,6 +44,8 @@ int led_state = 0;
 char index_html[4096];
 char response_data[4096];
 const char mi_ssid[] = "Proyecto";
+EventGroupHandle_t wifi_event_group;
+uint8_t FIRST_CLIENT = BIT0, UART_EN_USO = BIT1;
 
 uint32_t to_big_endian(uint32_t num) {
     return ((num >> 24) & 0xFF) | ((num >> 8) & 0xFF00) | ((num << 8) & 0xFF0000) | ((num << 24) & 0xFF000000);
@@ -52,44 +55,62 @@ uint32_t to_big_endian(uint32_t num) {
 
 
 void send_temperature(void* args){
-    char buffer[20], salida[30];
-    int8_t len=0;
+    char buffer[20];
+    int8_t len = 0;
     while (1){
+        xEventGroupWaitBits(wifi_event_group, FIRST_CLIENT, pdFALSE, pdTRUE, portMAX_DELAY);
         uint8_t data[4];
         gpio_set_level(PIN_CS_SENS, 1);
         len = uart_read_bytes(UART_NUM_1, data, 4, 1000 / portTICK_PERIOD_MS);
         if (len >= 0)
         {
+            xEventGroupWaitBits(wifi_event_group, UART_EN_USO, pdTRUE, pdTRUE, portMAX_DELAY);
             gpio_set_level(PIN_CS_SENS, 1);
             vTaskDelay(10 / portTICK_PERIOD_MS);
             gpio_set_level(PIN_CS_SENS, 0);
-            len=uart_read_bytes(UART_NUM_2, buffer, 5, 1000/portTICK_PERIOD_MS);
-            buffer[len]='\0';
-            ESP_LOGI(TAG,"Len: %d", len);
-            ESP_LOGI(TAG,"Medicion: %s", buffer);
+            len = uart_read_bytes(UART_NUM_2, buffer, 5, 1000 / portTICK_PERIOD_MS);
+            buffer[len] = '\0';
+            ESP_LOGI(TAG, "Len: %d", len);
+            ESP_LOGI(TAG, "Medicion: %s", buffer);
+
+            // Create JSON object
+            cJSON *root = cJSON_CreateObject();
+            cJSON_AddNumberToObject(root, "lectura", 1);
+            cJSON_AddStringToObject(root, "medicion", buffer);
+            char *json_string = cJSON_Print(root);
+
             httpd_ws_frame_t ws_pkt;
             memset(&ws_pkt, 0, sizeof(httpd_ws_frame_t));
-            ws_pkt.payload = (uint8_t *)buffer;
-            ws_pkt.len = strlen(buffer);
+            ws_pkt.payload = (uint8_t *)json_string;
+            ws_pkt.len = strlen(json_string);
             ws_pkt.type = HTTPD_WS_TYPE_TEXT;
+
             size_t max_clients = CONFIG_LWIP_MAX_LISTENING_TCP;
             size_t fds = max_clients;
             int client_fds[max_clients];
-            esp_err_t ret =httpd_get_client_list(server, &max_clients, client_fds);
-            for(int i = 0; i < fds; i++){
+            esp_err_t ret = httpd_get_client_list(server, &max_clients, client_fds);
+            for (int i = 0; i < fds; i++){
                 int client_info = httpd_ws_get_fd_info(server, client_fds[i]);
-                if(client_info == HTTPD_WS_CLIENT_WEBSOCKET){
+                if (client_info == HTTPD_WS_CLIENT_WEBSOCKET){
                     httpd_ws_send_frame_async(server, client_fds[i], &ws_pkt);
                 }
+                ESP_LOGI(TAG, "Enviando a %d", client_fds[i]);
             }
+
+            // Clean up
+            cJSON_Delete(root);
+            free(json_string);
+
             gpio_set_level(PIN_CS_SD, 1);
             vTaskDelay(10 / portTICK_PERIOD_MS);
             gpio_set_level(PIN_CS_SD, 0);
+            char salida[30];
             sprintf(salida, "%c%s", SAVE_CMD, buffer);
             vTaskDelay(1500 / portTICK_PERIOD_MS);
-            ESP_LOGI(TAG,"Salida: %s", salida);
+            ESP_LOGI(TAG, "Salida: %s", salida);
             uart_write_bytes(UART_NUM_1, salida, strlen(salida));
             vTaskDelay(10000 / portTICK_PERIOD_MS);
+            xEventGroupSetBits(wifi_event_group, UART_EN_USO);
         }
     }
 }
@@ -214,49 +235,13 @@ static esp_err_t handle_ws_req(httpd_req_t *req)
     if (req->method == HTTP_GET)
     {
         ESP_LOGI(TAG, "Handshake done, the new connection was opened");
+        xEventGroupSetBits(wifi_event_group, FIRST_CLIENT);
+        xEventGroupSetBits(wifi_event_group, UART_EN_USO);
         return ESP_OK;
     }
-
-    httpd_ws_frame_t ws_pkt;
-    uint8_t *buf = NULL;
-    memset(&ws_pkt, 0, sizeof(httpd_ws_frame_t));
-    ws_pkt.type = HTTPD_WS_TYPE_TEXT;
-    esp_err_t ret = httpd_ws_recv_frame(req, &ws_pkt, 0);
-    if (ret != ESP_OK)
-    {
-        ESP_LOGE(TAG, "httpd_ws_recv_frame failed to get frame len with %d", ret);
-        return ret;
-    }
-
-    if (ws_pkt.len)
-    {
-        buf = calloc(1, ws_pkt.len + 1);
-        if (buf == NULL)
-        {
-            ESP_LOGE(TAG, "Failed to calloc memory for buf");
-            return ESP_ERR_NO_MEM;
-        }
-        ws_pkt.payload = buf;
-        ret = httpd_ws_recv_frame(req, &ws_pkt, ws_pkt.len);
-        if (ret != ESP_OK)
-        {
-            ESP_LOGE(TAG, "httpd_ws_recv_frame failed with %d", ret);
-            free(buf);
-            return ret;
-        }
-        ESP_LOGI(TAG, "Got packet with message: %s", ws_pkt.payload);
-    }
-
-    ESP_LOGI(TAG, "frame len is %d", ws_pkt.len);
-
-    if (ws_pkt.type == HTTPD_WS_TYPE_TEXT &&
-        strcmp((char *)ws_pkt.payload, "toggle") == 0)
-    {
-        free(buf);
-        return trigger_async_send(req->handle, req);
-    }
-    return ESP_OK;
+        return ESP_OK;
 }
+
 
 httpd_handle_t setup_websocket_server(void)
 {
@@ -322,6 +307,7 @@ void app_main()
 {
     gpio_init();
     uart_init();
+    wifi_event_group = xEventGroupCreate();
     // Inicializar NVS
     esp_err_t ret = nvs_flash_init();
     if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
