@@ -4,18 +4,15 @@
 #include "driver/i2c.h"
 #include <string.h>
 #include "esp_log.h"
+#include "driver/uart.h"
+#include "esp_sleep.h"
 
-#define HEADER_SENSOR 0x27
-#define CMD_SENSOR_READ 0x9F
+#define PIN_SDA 21
+#define PIN_SCL 19
+#define PIN_TX 23
+#define PIN_WAKEUP 32
 
-#define HEADER_SIM 0x28
-#define CMD_SIM_WRITE 0x9F
-#define CMD_SIM_LOAD 0x9E
-
-#define SLAVE_DIR 0X28 //Posible cambio
-#define I2C_SLAVE_NUM 1
 #define I2C_MASTER_NUM 0
-
 #define BME280_SENSOR_ADDR 0xF6
 #define BME280_CHIP_ID 0xD0
 #define BME280_TEMP_MSB 0xFA // 
@@ -38,13 +35,14 @@ static const char *TAG= "I2C_SLAVE";
 
 uint16_t Temp[3];
 int32_t t_fine; 
+RTC_DATA_ATTR static uint8_t firstrun = 0;
 
 
 static void master_init(){
     i2c_config_t master_config={
         .mode = I2C_MODE_MASTER,
-        .sda_io_num = 19, //PIN SDA
-        .scl_io_num = 18, //PIN SCL
+        .sda_io_num = PIN_SDA, //PIN SDA
+        .scl_io_num = PIN_SCL, //PIN SCL
         .sda_pullup_en = GPIO_PULLUP_ENABLE,
         .scl_pullup_en = GPIO_PULLUP_ENABLE,
         .master.clk_speed = 400000,
@@ -53,20 +51,6 @@ static void master_init(){
 
     i2c_param_config(i2c_master, &master_config);
     i2c_driver_install(i2c_master, master_config.mode, 0 , 0, 0); 
-}
-
-static void slave_init(){
-    i2c_config_t slave_config={
-        .mode = I2C_MODE_SLAVE,
-        .sda_io_num = 21, //pin sda
-        .scl_io_num = 22, //pin scl
-        .sda_pullup_en = GPIO_PULLUP_ENABLE,
-        .scl_pullup_en = GPIO_PULLUP_ENABLE,
-        .slave.addr_10bit_en = 0,
-        .slave.slave_addr = SLAVE_DIR,
-    };
-    i2c_param_config(I2C_SLAVE_NUM, &slave_config);
-    i2c_driver_install(I2C_SLAVE_NUM, slave_config.mode, 256, 256, 0);
 }
 
 static esp_err_t register_read(uint8_t reg_addr, uint8_t *data, size_t len){
@@ -109,6 +93,17 @@ static void compensation_temp(){ //lectura y lo guarda
     Temp[2] |= (uint16_t)(data<<8);
 }
 
+void float_to_uint8_array(float f, uint8_t *arr) {
+    uint32_t temp;
+    memcpy(&temp, &f, sizeof(temp));  // Convertir el float a su representación binaria de 32 bits
+
+    // Extraer los 4 bytes
+    arr[0] = (temp >> 24) & 0xFF;  // Byte más significativo
+    arr[1] = (temp >> 16) & 0xFF;
+    arr[2] = (temp >> 8) & 0xFF;
+    arr[3] = temp & 0xFF;          // Byte menos significativo
+}
+
 float conversion_Temp(){
     int32_t no_conv_temp = read_temp();
     int32_t var1,var2;
@@ -130,45 +125,56 @@ void sensor_init(){
 }
 
 void slave_enviar_datos(void *args){
-    
+    char buffer[100]; // Aumentar el tamaño del buffer para incluir el terminador nulo
+    uint8_t len=0;
     while (1)
     {
-        uint8_t formato[2];
-        int solicitud = i2c_slave_read_buffer(I2C_SLAVE_NUM, formato, sizeof(formato), 500/ portTICK_PERIOD_MS);
-        if (solicitud == 2 && formato[0] == HEADER_SENSOR && formato[1] == CMD_SENSOR_READ){
-            // Calcular y mostrar la temperatura compensada
-            float temperatura = conversion_Temp();
-            uint8_t data[48];
-
-            snprintf((char *)&data, sizeof(data), "%.2f", temperatura); // Convierte a cadena con 2 decimales
-            ESP_LOGI(TAG, "Temperatura: %s °C", &data[2]);
-
-            // Enviar los datos
-            i2c_slave_write_buffer(I2C_SLAVE_NUM, (uint8_t*) &temperatura, 4, 300 / portTICK_PERIOD_MS);
-        }
-        else
-        {
-            ESP_LOGI(TAG, "Error al recibir encabezado");
-        }
-
-        vTaskDelay(2000 / portTICK_PERIOD_MS);
+        float temp = conversion_Temp();
+        ESP_LOGI(TAG, "Temperatura: %.2f", temp);
+        snprintf(buffer, sizeof(buffer), "%.2f", temp); // Usar snprintf para asegurar que no se exceda el tamaño del buffer
+        len=uart_write_bytes(UART_NUM_2, buffer, strlen(buffer)); // Enviar solo la longitud de la cadena
+        ESP_LOGI(TAG, "Bytes enviados: %d", len);
+        vTaskDelay(100/portTICK_PERIOD_MS);
+        esp_deep_sleep_start();
     }
-    ESP_ERROR_CHECK(i2c_driver_delete(I2C_SLAVE_NUM));
 }
 
+void uart_init(){
+    uart_config_t uart_config = {
+        .baud_rate = 115200,
+        .data_bits = UART_DATA_8_BITS,
+        .parity = UART_PARITY_DISABLE,
+        .stop_bits = UART_STOP_BITS_1,
+        .flow_ctrl = UART_HW_FLOWCTRL_DISABLE
+    };
+    uart_param_config(UART_NUM_2, &uart_config);
+    uart_set_pin(UART_NUM_2, PIN_TX, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
+    uart_driver_install(UART_NUM_2, 1024, 0, 0, NULL, 0);
+}
+
+void gpio_init(){
+    gpio_reset_pin(PIN_WAKEUP);
+    gpio_set_direction(PIN_WAKEUP, GPIO_MODE_INPUT);
+    gpio_set_pull_mode(PIN_WAKEUP, GPIO_PULLDOWN_ONLY);
+}
 
 void app_main() {
-     uint8_t dataId[2];
-
+    uint8_t dataId[2];
     master_init();
-    slave_init();
-    ESP_LOGI(TAG, "I2C incializado exitosamente");
-    ESP_ERROR_CHECK(register_read(BME280_CHIP_ID, dataId, 1)); // Leer WHO_AM_I
-    ESP_LOGI(TAG, "WHO_AM_I = %X", dataId[0]);
-    sensor_init(); // Inicializar el sensor BME280
-    compensation_temp(); // Leer los datos de calibración
-    ESP_LOGI(TAG, "Lectura de calibracion exitosa");
-    xTaskCreate(slave_enviar_datos, "slave_enviar_datos", 4096, NULL, 10, NULL);
-    
-    
+    uart_init();
+    gpio_init();
+    esp_sleep_enable_ext0_wakeup(PIN_WAKEUP, 1);
+    if(firstrun == 0){
+        ESP_LOGI(TAG, "First run");
+        firstrun = 1;
+        vTaskDelay(10/portTICK_PERIOD_MS);
+        esp_deep_sleep_start();
+    }else{
+        ESP_LOGI(TAG, "I2C incializado exitosamente");
+        ESP_ERROR_CHECK(register_read(BME280_CHIP_ID, dataId, 1)); // Leer WHO_AM_I
+        sensor_init(); // Inicializar el sensor BME280
+        compensation_temp(); // Leer los datos de calibración
+        ESP_LOGI(TAG, "Lectura de calibracion exitosa");
+        xTaskCreate(slave_enviar_datos, "slave_enviar_datos", 4096, NULL, 10, NULL);
+    }
 }

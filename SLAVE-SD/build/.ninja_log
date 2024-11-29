@@ -1138,3 +1138,628 @@
 888	5996	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
 888	5996	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
 888	5996	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+910	1216	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+910	1216	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+910	1216	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+910	1216	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+910	1216	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+910	1216	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+910	1216	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+910	1216	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+923	1532	7545642791639865	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+1533	1837	7545642794697579	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+1837	14374	7545642919553970	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+1837	14374	7545642919553970	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+14375	16346	7545642939547862	SLAVE-SD.elf	e09743b42f52b2e3
+16347	16810	7545642944418518	.bin_timestamp	26be525cd2a1e6de
+16347	16810	7545642944418518	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+141	374	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+141	374	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+141	374	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+141	374	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+141	374	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+141	374	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+141	374	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+141	374	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+153	649	7545643199937607	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+650	797	7545643201430167	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+797	13052	7545643323198394	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+797	13052	7545643323198394	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+13052	14774	7545643340939422	SLAVE-SD.elf	e09743b42f52b2e3
+14774	15192	7545643345385046	.bin_timestamp	26be525cd2a1e6de
+14774	15192	7545643345385046	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+15192	15345	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+15192	15345	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+198	502	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+198	502	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+198	502	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+198	502	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+198	502	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+198	502	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+198	502	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+198	502	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+216	808	7545643989285872	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+811	972	7545643990909246	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+972	15433	7545644135246442	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+972	15433	7545644135246442	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+15433	16981	7545644150748599	SLAVE-SD.elf	e09743b42f52b2e3
+16981	17409	7545644155321114	.bin_timestamp	26be525cd2a1e6de
+16981	17409	7545644155321114	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+17409	17530	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+17409	17530	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+140	439	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+140	439	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+140	439	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+140	439	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+140	439	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+140	439	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+140	439	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+140	439	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+153	753	7545645556300927	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+755	894	7545645557730902	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+894	12576	7545645674226366	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+894	12576	7545645674226366	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12577	14049	7545645688964089	SLAVE-SD.elf	e09743b42f52b2e3
+14050	14486	7545645693662622	.bin_timestamp	26be525cd2a1e6de
+14050	14486	7545645693662622	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14486	14615	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14486	14615	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+163	413	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+163	413	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+163	413	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+163	413	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+163	413	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+163	413	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+163	413	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+163	413	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+174	781	7545647417780762	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+784	928	7545647419263749	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+928	12614	7545647535794618	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+928	12614	7545647535794618	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12614	14209	7545647551659438	SLAVE-SD.elf	e09743b42f52b2e3
+14210	14655	7545647556559260	.bin_timestamp	26be525cd2a1e6de
+14210	14655	7545647556559260	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14655	14793	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14655	14793	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+147	420	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+147	420	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+147	420	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+147	420	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+147	420	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+147	420	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+147	420	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+147	420	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+159	687	7545648549896954	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+689	852	7545648551536775	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+853	11588	7545648658488006	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+853	11588	7545648658488006	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11589	12987	7545648672641283	SLAVE-SD.elf	e09743b42f52b2e3
+12988	13396	7545648676998370	.bin_timestamp	26be525cd2a1e6de
+12988	13396	7545648676998370	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+13396	13525	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+13396	13525	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+133	380	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+133	380	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+133	380	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+133	380	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+133	380	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+133	380	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+133	380	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+133	380	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+145	666	7545649891594481	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+669	800	7545649892938145	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+800	11571	7545650000229772	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+800	11571	7545650000229772	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11571	13006	7545650014728595	SLAVE-SD.elf	e09743b42f52b2e3
+13006	13439	7545650019330024	.bin_timestamp	26be525cd2a1e6de
+13006	13439	7545650019330024	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+13439	13622	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+13439	13622	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+180	407	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+180	407	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+180	407	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+180	407	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+180	407	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+180	407	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+180	407	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+180	407	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+192	747	7545651771410916	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+751	878	7545651772734646	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+879	11833	7545651881951574	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+879	11833	7545651881951574	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11834	13241	7545651896067872	SLAVE-SD.elf	e09743b42f52b2e3
+13242	13686	7545651900795792	.bin_timestamp	26be525cd2a1e6de
+13242	13686	7545651900795792	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+13686	13890	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+13686	13890	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+156	378	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+156	378	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+156	378	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+156	378	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+156	378	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+156	378	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+156	378	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+156	378	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+167	668	7545652317009737	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+670	814	7545652318491323	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+815	11605	7545652426037942	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+815	11605	7545652426037942	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11605	12954	7545652439617492	SLAVE-SD.elf	e09743b42f52b2e3
+12954	13386	7545652444218288	.bin_timestamp	26be525cd2a1e6de
+12954	13386	7545652444218288	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+13386	13512	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+13386	13512	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+141	376	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+141	376	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+141	376	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+141	376	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+141	376	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+141	376	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+141	376	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+141	376	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+152	695	7545653972297939	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+697	831	7545653973679942	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+832	11781	7545654082837945	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+832	11781	7545654082837945	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11782	13220	7545654097291297	SLAVE-SD.elf	e09743b42f52b2e3
+13220	13653	7545654101917630	.bin_timestamp	26be525cd2a1e6de
+13220	13653	7545654101917630	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+13653	13782	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+13653	13782	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+148	438	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+148	438	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+148	438	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+148	438	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+148	438	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+148	438	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+148	438	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+148	438	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+161	733	7545654966697796	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+736	873	7545654968100701	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+873	15012	7545655109101932	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+873	15012	7545655109101932	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+15012	16538	7545655124457367	SLAVE-SD.elf	e09743b42f52b2e3
+16538	16965	7545655129013166	.bin_timestamp	26be525cd2a1e6de
+16538	16965	7545655129013166	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+16965	17107	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+16965	17107	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+139	373	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+139	373	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+139	373	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+139	373	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+139	373	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+139	373	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+139	373	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+139	373	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+150	681	7545655371873562	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+684	830	7545655373378846	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+830	11236	7545655477137631	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+830	11236	7545655477137631	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11237	12565	7545655490422328	SLAVE-SD.elf	e09743b42f52b2e3
+12566	12982	7545655494883391	.bin_timestamp	26be525cd2a1e6de
+12566	12982	7545655494883391	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+12982	13108	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+12982	13108	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+895	1241	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+895	1241	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+895	1241	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+895	1241	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+895	1241	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+895	1241	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+895	1241	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+895	1241	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+142	506	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+142	506	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+142	506	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+142	506	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+142	506	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+142	506	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+142	506	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+142	506	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+151	417	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+151	417	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+151	417	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+151	417	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+151	417	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+151	417	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+151	417	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+151	417	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+164	462	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+164	462	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+164	462	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+164	462	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+164	462	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+164	462	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+164	462	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+164	462	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+166	412	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+166	412	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+166	412	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+166	412	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+166	412	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+166	412	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+166	412	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+166	412	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+145	490	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+145	490	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+145	490	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+145	490	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+145	490	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+145	490	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+145	490	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+145	490	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+157	808	7545868554656969	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+810	952	7545868556097403	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+952	13600	7545868682123580	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+952	13600	7545868682123580	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+13600	15130	7545868697589693	SLAVE-SD.elf	e09743b42f52b2e3
+15131	15557	7545868702156022	.bin_timestamp	26be525cd2a1e6de
+15131	15557	7545868702156022	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+15557	15701	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+15557	15701	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+143	430	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+143	430	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+143	430	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+143	430	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+143	430	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+143	430	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+143	430	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+143	430	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+154	704	7545870087871578	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+705	839	7545870089229185	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+839	12319	7545870203677087	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+839	12319	7545870203677087	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12319	13703	7545870217579351	SLAVE-SD.elf	e09743b42f52b2e3
+13703	14136	7545870222216284	.bin_timestamp	26be525cd2a1e6de
+13703	14136	7545870222216284	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14137	14269	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14137	14269	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+165	398	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+165	398	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+165	398	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+165	398	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+165	398	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+165	398	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+165	398	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+165	398	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+176	705	7545872014333129	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+706	899	7545872016280273	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+899	12545	7545872132348451	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+899	12545	7545872132348451	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12546	13977	7545872146738767	SLAVE-SD.elf	e09743b42f52b2e3
+13977	14471	7545872152022173	.bin_timestamp	26be525cd2a1e6de
+13977	14471	7545872152022173	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14471	14592	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14471	14592	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+146	385	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+146	385	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+146	385	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+146	385	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+146	385	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+146	385	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+146	385	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+146	385	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+157	655	7545872843490997	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+657	790	7545872844838211	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+790	14142	7545872978025107	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+790	14142	7545872978025107	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+14142	15562	7545872992273623	SLAVE-SD.elf	e09743b42f52b2e3
+15562	15998	7545872996827801	.bin_timestamp	26be525cd2a1e6de
+15562	15998	7545872996827801	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+15999	16119	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+15999	16119	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+232	513	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+232	513	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+232	513	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+232	513	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+232	513	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+232	513	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+232	513	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+232	513	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+245	905	7545875646461233	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+907	1107	7545875648729418	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+1107	15451	7545875791751022	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+1107	15451	7545875791751022	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+15451	17583	7545875813217069	SLAVE-SD.elf	e09743b42f52b2e3
+17583	18006	7545875817725201	.bin_timestamp	26be525cd2a1e6de
+17583	18006	7545875817725201	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+18006	18142	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+18006	18142	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+172	480	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+172	480	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+172	480	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+172	480	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+172	480	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+172	480	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+172	480	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+172	480	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+189	784	7545878094383759	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+786	942	7545878095979440	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+942	12187	7545878208104026	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+942	12187	7545878208104026	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12188	13575	7545878221966916	SLAVE-SD.elf	e09743b42f52b2e3
+13576	13996	7545878226515510	.bin_timestamp	26be525cd2a1e6de
+13576	13996	7545878226515510	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+13996	14133	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+13996	14133	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+142	371	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+142	371	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+142	371	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+142	371	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+142	371	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+142	371	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+142	371	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+142	371	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+154	689	7545883985959451	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+692	847	7545883987579045	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+847	12485	7545884103620512	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+847	12485	7545884103620512	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12486	13912	7545884117690222	SLAVE-SD.elf	e09743b42f52b2e3
+13913	14389	7545884123020414	.bin_timestamp	26be525cd2a1e6de
+13913	14389	7545884123020414	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14389	14505	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14389	14505	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+138	365	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+138	365	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+138	365	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+138	365	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+138	365	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+138	365	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+138	365	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+138	365	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+152	635	7545884515461423	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+637	773	7545884516853047	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+773	12567	7545884634179225	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+773	12567	7545884634179225	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12567	14538	7545884654209473	SLAVE-SD.elf	e09743b42f52b2e3
+14538	15104	7545884660169034	.bin_timestamp	26be525cd2a1e6de
+14538	15104	7545884660169034	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+15104	15227	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+15104	15227	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+150	378	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+150	378	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+150	378	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+150	378	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+150	378	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+150	378	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+150	378	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+150	378	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+161	638	7545885290932990	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+640	772	7545885292282108	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+772	12411	7545885408332022	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+772	12411	7545885408332022	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12411	13796	7545885422240363	SLAVE-SD.elf	e09743b42f52b2e3
+13797	14223	7545885426811614	.bin_timestamp	26be525cd2a1e6de
+13797	14223	7545885426811614	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14223	14357	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14223	14357	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+156	386	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+156	386	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+156	386	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+156	386	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+156	386	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+156	386	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+156	386	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+156	386	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+168	656	7545886268071815	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+658	788	7545886269400449	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+788	14195	7545886402984674	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+788	14195	7545886402984674	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+14196	15848	7545886419708701	SLAVE-SD.elf	e09743b42f52b2e3
+15848	16269	7545886424222068	.bin_timestamp	26be525cd2a1e6de
+15848	16269	7545886424222068	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+16269	16384	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+16269	16384	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+139	436	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+139	436	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+139	436	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+139	436	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+139	436	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+139	436	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+139	436	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+139	436	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+150	746	7545886774714702	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+748	881	7545886776060128	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+881	12366	7545886890575434	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+881	12366	7545886890575434	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12367	13919	7545886906015016	SLAVE-SD.elf	e09743b42f52b2e3
+13919	14574	7545886912982375	.bin_timestamp	26be525cd2a1e6de
+13919	14574	7545886912982375	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14574	14688	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14574	14688	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+167	459	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+167	459	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+167	459	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+167	459	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+167	459	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+167	459	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+167	459	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+167	459	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+180	741	7545888009086340	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+744	892	7545888010610781	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+893	12485	7545888126071372	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+893	12485	7545888126071372	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12485	13869	7545888140097373	SLAVE-SD.elf	e09743b42f52b2e3
+13869	14296	7545888144666863	.bin_timestamp	26be525cd2a1e6de
+13869	14296	7545888144666863	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14296	14421	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14296	14421	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+157	494	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+157	494	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+157	494	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+157	494	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+157	494	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+157	494	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+157	494	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+157	494	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+169	903	7545889980855176	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+904	1074	7545889982574610	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+1075	12878	7545890100251721	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+1075	12878	7545890100251721	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12878	14410	7545890115685891	SLAVE-SD.elf	e09743b42f52b2e3
+14411	14897	7545890120823134	.bin_timestamp	26be525cd2a1e6de
+14411	14897	7545890120823134	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14897	15100	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14897	15100	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+304	597	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+304	597	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+304	597	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+304	597	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+304	597	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+304	597	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+304	597	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+304	597	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+135	371	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+135	371	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+135	371	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+135	371	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+135	371	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+135	371	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+135	371	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+135	371	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+145	717	7545891605915251	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+719	891	7545891607678819	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+891	12535	7545891723686637	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+891	12535	7545891723686637	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12535	13964	7545891738145956	SLAVE-SD.elf	e09743b42f52b2e3
+13965	14409	7545891742867618	.bin_timestamp	26be525cd2a1e6de
+13965	14409	7545891742867618	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14410	14577	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14410	14577	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+145	397	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+145	397	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+145	397	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+145	397	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+145	397	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+145	397	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+145	397	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+145	397	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+158	679	7545893265828365	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+681	809	7545893267114678	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+809	12558	7545893384260703	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+809	12558	7545893384260703	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12558	13895	7545893397756799	SLAVE-SD.elf	e09743b42f52b2e3
+13896	14313	7545893402179681	.bin_timestamp	26be525cd2a1e6de
+13896	14313	7545893402179681	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14313	14445	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14313	14445	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+144	370	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+144	370	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+144	370	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+144	370	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+144	370	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+144	370	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+144	370	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+144	370	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+141	386	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+141	386	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+141	386	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+141	386	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+141	386	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+141	386	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+141	386	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+141	386	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+153	698	7545894248099329	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+700	839	7545894249515213	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+839	11431	7545894355127502	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+839	11431	7545894355127502	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11431	12715	7545894368029158	SLAVE-SD.elf	e09743b42f52b2e3
+12716	13136	7545894372494571	.bin_timestamp	26be525cd2a1e6de
+12716	13136	7545894372494571	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+13136	13259	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+13136	13259	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+134	368	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+134	368	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+134	368	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+134	368	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+134	368	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+134	368	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+134	368	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+134	368	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+145	625	7545894697852368	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+626	778	7545894699383540	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+778	10924	7545894800463172	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+778	10924	7545894800463172	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+10924	12228	7545894813651012	SLAVE-SD.elf	e09743b42f52b2e3
+12229	12651	7545894818127656	.bin_timestamp	26be525cd2a1e6de
+12229	12651	7545894818127656	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+12652	12773	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+12652	12773	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+135	353	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+135	353	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+135	353	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+135	353	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+135	353	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+135	353	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+135	353	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+135	353	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+145	612	7545895567600153	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+614	816	7545895569610208	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+142	373	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+142	373	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+142	373	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+142	373	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+142	373	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+142	373	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+142	373	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+142	373	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+153	633	7545895661942877	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+634	801	7545895663628331	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+801	11269	7545895767965275	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+801	11269	7545895767965275	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11269	12572	7545895781099691	SLAVE-SD.elf	e09743b42f52b2e3
+12573	13426	7545895789877641	.bin_timestamp	26be525cd2a1e6de
+12573	13426	7545895789877641	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+13426	13564	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+13426	13564	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+138	370	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+138	370	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+138	370	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+138	370	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+138	370	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+138	370	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+138	370	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+138	370	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+149	658	7545897262277932	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+660	789	7545897263585677	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+790	11180	7545897367163282	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+790	11180	7545897367163282	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11181	12493	7545897380369272	SLAVE-SD.elf	e09743b42f52b2e3
+12493	12901	7545897384720794	.bin_timestamp	26be525cd2a1e6de
+12493	12901	7545897384720794	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+12901	13019	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+12901	13019	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+134	357	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+134	357	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+134	357	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+134	357	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+134	357	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+134	357	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+134	357	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+134	357	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+144	622	7545898165556780	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+624	758	7545898166910924	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+759	11615	7545898275132047	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+759	11615	7545898275132047	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+11616	12912	7545898288170314	SLAVE-SD.elf	e09743b42f52b2e3
+12913	13302	7545898292345668	.bin_timestamp	26be525cd2a1e6de
+12913	13302	7545898292345668	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+13302	13441	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+13302	13441	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+133	360	7542001353684318	bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+133	360	7542001353684318	bootloader/bootloader.elf	ef60a29b1d18df8c
+133	360	7542001353684318	bootloader/bootloader.bin	ef60a29b1d18df8c
+133	360	7542001353684318	bootloader/bootloader.map	ef60a29b1d18df8c
+133	360	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	ef60a29b1d18df8c
+133	360	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.elf	ef60a29b1d18df8c
+133	360	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.bin	ef60a29b1d18df8c
+133	360	7542001353684318	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/bootloader/bootloader.map	ef60a29b1d18df8c
+146	626	7545899133678197	esp-idf/main/CMakeFiles/__idf_main.dir/sd_card_example_main.c.obj	98b4eab041587f22
+628	761	7545899135033248	esp-idf/main/libmain.a	67ae235b9f7f1a4e
+761	12349	7545899250493628	esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+761	12349	7545899250493628	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esp_system/ld/sections.ld	a3c5f96281308654
+12349	14012	7545899267237813	SLAVE-SD.elf	e09743b42f52b2e3
+14012	14487	7545899272299562	.bin_timestamp	26be525cd2a1e6de
+14012	14487	7545899272299562	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/.bin_timestamp	26be525cd2a1e6de
+14487	14611	0	esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47
+14487	14611	0	D:/ESP32-Projects/Proyecto Final/SLAVE-SD/build/esp-idf/esptool_py/CMakeFiles/app_check_size	b0502bbc2e8a47

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "SLAVE-TEMP",
-    "project_version":    "1",
+    "project_version":    "ece2197-dirty",
     "project_path":       "D:/ESP32-Projects/Proyecto Final/SLAVE-TEMP",
     "idf_path":           "C:/Users/oscda/esp/v5.2.3/esp-idf",
     "build_dir":          "D:/ESP32-Projects/Proyecto Final/SLAVE-TEMP/build",
